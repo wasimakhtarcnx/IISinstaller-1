@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISinstaller", "IISinstaller\IISinstaller.csproj", "{5A178054-0870-448F-9686-77A8901C007B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IISinstaller", "IISinstaller\IISinstaller.csproj", "{5A178054-0870-448F-9686-77A8901C007B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{078D9776-CDD0-4148-A230-C58D628601A0}"
+	ProjectSection(SolutionItems) = preProject
+		config.yml = config.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
