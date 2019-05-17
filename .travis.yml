@@ -1,5 +1,9 @@
 language: csharp
 solution: IISinstaller.sln
+dotnet: 2.1.502
+script:
+ - dotnet restore
+
 before_install:
   - sudo apt-get install nunit-console
 before_script:
